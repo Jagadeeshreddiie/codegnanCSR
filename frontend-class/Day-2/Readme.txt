@@ -18,4 +18,14 @@ list tags:-
 
     ul -unordered list
     ol -ordered list
+    --> li - list 
     dl - description list
+
+    ** it aligns the data in a particular order
+        --> dt - description-term
+            dd - description-data
+
+anchor tags :- 
+    a 
+    --> href = reference
+    --> target=_blank   # to open in a new page
