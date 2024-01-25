@@ -1,0 +1,30 @@
+JDK
+
+    COMPILER
+        CLASS FILE ---> RUNS BY JRE (INTERPRETER)
+
+JRE--> INTERPRETOR:
+            After compiling, it exlains the compiled class file line by line to the JVM.
+
+    JVM ---> Instructs the underlying the OS about OPCODE.
+
+
+Datatypes: 2 types 
+
+            primitive      Secondary
+
+            byte            assing values to variables
+            short
+            int
+            long
+            float
+            double
+            char
+            boolean
+
+
+    byte a = 5+5     ## not valid
+
+    byte a=5;
+    byte b=5;
+    byte c=a+b;      ## best practice
