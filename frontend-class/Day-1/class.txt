@@ -1,0 +1,7 @@
+Total class is about important tags that are in the html like 
+pre, string, b, i, sub, sup, head, meta, del, mark, abbr, center etc..
+
+atrriburtes like contenteditable etc.
+
+what is use of DOCTYPEHTML?
+--> to represent the browser that document tyor we using in HTML
