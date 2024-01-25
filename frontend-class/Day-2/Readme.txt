@@ -28,4 +28,6 @@ list tags:-
 anchor tags :- 
     a 
     --> href = reference
-    --> target=_blank   # to open in a new page
+    --> target=_blank   # to open in another tab
+    --> target=_self    # to open in same tab (default)
+    --> target=_parent	# Opens the linked document in the parent frame
