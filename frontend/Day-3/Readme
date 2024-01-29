@@ -1,0 +1,62 @@
+Table
+
+tr
+    th
+td
+    th
+
+    styling: border (attribute)
+
+cell spacing
+
+row gap
+
+-------------------------------------------------
+
+img tag -- self closing tage
+
+CLOUDINARY (website) - to save images in cloud
+
+--------------------------------------------------
+
+audio tag
+structure :
+
+ <!-- 
+<audio controls > 
+    <source src="" /> 
+</audio> 
+-->
+
+controls autoplay muted
+
+
+---------------------------------------------------
+
+video tag
+
+structure :
+ <!-- 
+<audio controls > 
+    <source src="" /> 
+</audio> 
+-->
+
+controls autoplay muted
+
+-----------------------------------------------------
+
+iframe tag
+
+--> to play youtube videos 
+
+structure :
+<!--
+    <iframe
+      align="center"
+      height="500"
+      width="500"
+      src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1"
+      frameborder="0"
+    ></iframe>
+-->
