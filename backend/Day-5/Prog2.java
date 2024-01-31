@@ -9,7 +9,12 @@ public class Prog2 {
         double base=sc.nextDouble();
         System.out.println("Enter height : ");
         double height=sc.nextDouble();
-        System.out.println("The area of triangle is : "+(base*height)/2);
+        // double area=((double)1/2)*base*height;
+
+        // 1/2   gives 0 because... int/int gives int --> 0
+        // so we have to make 1 double by (typecasting)
+         
+        System.out.println("The area of triangle is : "+((double)1/2)*base*height);
         sc.close();
     }
 }
