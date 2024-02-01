@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class Prog12{
-    public static void main(String [] jagadeesh){
+public class Prime{
+    public static void main(String [] ar){
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number to check : ");
         int i=sc.nextInt();
@@ -14,6 +14,7 @@ public class Prog12{
         for(int j=2;j<i;j++){
             if(i%j==0){
                 count++;
+                break;
             }
         }
         if(count>0){
