@@ -11,3 +11,11 @@ box-shadows ---
 border style ---
 
 border-radius ---
+
+Pseudo elements
+
+:: before
+::selection
+::after
+::first-letter
+::first-line

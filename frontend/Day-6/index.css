@@ -32,7 +32,7 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  width: 40%;
+  width:35%;
   box-shadow: 0px 1px 5px inset rgba(0, 0, 0, 0.7);
 }
 .main-box input {
@@ -45,22 +45,32 @@
   background-color: rgba(255, 255, 255, 0.4);
 }
 .main-box label {
-  color: #000;
   font-size: 16px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   letter-spacing: .5px;
 }
-form button{
+form .amazon{
     width:100%;
-    height:30px;
-    background-color:transparent;
+    height:40px;
     border:none;
-    /* color:#fff; */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* letter-spacing: 3px; */
-    font-size: 20px;
-    font-weight: 800;
-    border-radius: 5px;
-    box-shadow: 1px 2px 10px inset rgba(0,0,0,0.2);
-    cursor: pointer;
+    border-radius: 8px;
+    font-family: calibri;
+    background-color: rgb(226, 226, 76);
+    font-size: 18px;
+    /* letter-spacing: 0.7px; */
+    /* margin-top:20px; */
+    font-weight: 0;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.3);
+}
+
+
+/* pseudo elements */
+
+.container h1::first-letter{
+    color:red;
+    font-size: 40px;
+}
+
+.main-box label::first-letter{
+    color:y;
 }
