@@ -41,3 +41,10 @@ Break  &  continue
 Break -> stops the flow of execution exactly.
 Continue -> continues the flow by skipping the particular iteration.
 
+_______________________________________________________________________________________________________________
+
+
+Wrote a program to demonstrate the example for all the above concepts.
+
+(Prime number).
+
