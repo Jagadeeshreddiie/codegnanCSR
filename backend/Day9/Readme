@@ -1,0 +1,40 @@
+Set of specifications to a group of classes.
+    -> says the class what to do but not how to do.
+
+interface ref. variables can be instantiated with the class that implement the interface.
+
+
+    -> int. ref. var. can only call interface methods but not "non interface nethods".
+
+    end advantage -- 
+                    app. will not use or don't use non-interface methods. 
+                    portability
+
+                    the app. is not "specific" to implementation but it is implementation portable.
+                    car a=new Slavia();
+                    car b=new Fortuner();
+                    ->[ App. can be ported from one implementation to another implementation without any change.]
+
+    "LOOSELY COPOULED ARCHITECTURE".
+
+EXAMPLE
+
+person -- class
+
+    -id
+    -name
+    -email
+    +setter
+    +getter
+    +constructors
+    +toString
+
+personService  -- interface
+
+    +find person int(id)
+    +savePerson(person p)
+
+
+
+Bean class - reusable class
+

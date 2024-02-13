@@ -1,4 +1,4 @@
-package backend.Day8;
+
 public class Fortuner implements Car{
     public void turnDirection(String direction){
         System.out.println("The Fortuner is turning "+direction);
