@@ -1,0 +1,8 @@
+.nav-link{
+    color:#000 !important;
+    font-weight: 700;
+}
+.navbar-nav{
+    align-items: center;
+    justify-content: center;
+}
