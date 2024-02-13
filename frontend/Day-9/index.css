@@ -1,8 +1,21 @@
-.nav-link{
-    color:#000 !important;
-    font-weight: 700;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navbar-nav{
-    align-items: center;
-    justify-content: center;
+.nav-link {
+  color: #000 !important;
+  font-weight: 700;
+}
+.navbar-nav {
+  align-items: center;
+  justify-content: center;
+}
+.body-container {
+  background: url("https://img.freepik.com/free-photo/artistic-arrangement-fruit-front-view_23-2148595057.jpg?w=996&t=st=1707802844~exp=1707803444~hmac=cbcacf38a00097c78ef7a0d3420d409cc5143c07d4c2662db62ab3baa830ce38");
+  height: 85.5vh;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
