@@ -33,5 +33,35 @@ car                             MediaPlayer
         MediaPlayer m=t1;
 
 This is multiple interface Implementation.
+----------------------------------------------------------------------
+NOTE :
+--------
+
+--> A class can implements an interface while it is extending another super class [extends & implements].
+
+ex :- 
+public class MyClass extends SuperClass implements Iface{
+
+}
+
+extends should come before ( it has 0-100% of abstraction).
+interface should come next (it has 100% of abstraction).
+
+--> Interfaces can be extended 
+
+Ex :- 
+public interface subInteface extends SuperInteface {
+
+}
+
+--> Intefaces can have member variables
+        by default : public , static , final
 
 
+
+
+
+
+
+PACKAGE
+--------------------------------------------------------------------
