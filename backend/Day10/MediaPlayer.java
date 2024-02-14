@@ -1,5 +1,5 @@
 interface MediaPlayer{
-    void start(int option);
-    void pause(int option);
-    void off();
+    void start();
+    void pause();
+    void power();
 }
