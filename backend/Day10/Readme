@@ -1,0 +1,37 @@
+Multiple Interface Implementation
+------------------------------------
+
+SYNTAX : 
+
+public class class_name implements interface1,interface2{
+    statements....
+
+} 
+
+
+car                             MediaPlayer
+----                            -----------
++turnDirection()                +start
++accelrate()                    +pause
++stop()                         +off
+    .                                   .
+    .                                   .
+    .                                   .
+    ......>                      <.......
+                    Thar
+                    -----
+                    +turnDirection()
+                    +accelrate()
+                    +stop()
+                    +start()
+                    +pause()
+                    +off()
+
+        Thar t1=new Thar()
+
+        Car c=t1;
+        MediaPlayer m=t1;
+
+This is multiple interface Implementation.
+
+
