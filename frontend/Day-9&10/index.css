@@ -13,9 +13,40 @@
 }
 .body-container {
   background: url("https://img.freepik.com/free-photo/artistic-arrangement-fruit-front-view_23-2148595057.jpg?w=996&t=st=1707802844~exp=1707803444~hmac=cbcacf38a00097c78ef7a0d3420d409cc5143c07d4c2662db62ab3baa830ce38");
-  height: 85.5vh;
+  height: 90vh;
   width:100%;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+}
+
+.card img{
+  /* aspect-ratio: 1/1; */
+  height:300px;
+
+}
+
+#payment input{
+
+  width:500px;
+}
+
+.fa-brands{
+  margin-right:10px;
+  margin-bottom:10px;
+  font-size: 30px;
+}
+#footer{
+  height:25vh;
+}
+.arrow{
+  position: sticky;
+  color:black;
+  font-size: 50px;
+  border:1px solid black;
+  bottom:0;
+  left:10px;
+  padding:10px;
+  border-radius: 5px;
+
 }
