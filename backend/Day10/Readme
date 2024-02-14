@@ -67,3 +67,7 @@ PACKAGE
 --------------------------------------------------------------------
 + Group / Collection of classes
 + If not specified, it is called "Default" package.
++ at top of the java program - package declaration
++ can be accessed by qualifying the package name
+            ex : - package.className
+
