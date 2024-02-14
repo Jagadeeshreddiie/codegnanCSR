@@ -65,3 +65,5 @@ public interface subInteface extends SuperInteface {
 
 PACKAGE
 --------------------------------------------------------------------
++ Group / Collection of classes
++ If not specified, it is called "Default" package.
