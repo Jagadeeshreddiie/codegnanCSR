@@ -1,0 +1,49 @@
+Javascript
+-----------
+
+It is a behavioural language
+
+it is used to create dynamic and interactive web content (nav, carousel etc.. ) like applications and browsers.
+
+it is a light weighted language, easy to integrate and can run in both browser and server when compared to java.
+
+
+applications:
+    game development
+    web development
+    server side scripting and client side programming.
+    database interaction
+
+
+
+Hoisting.. :- JavaScript Declarations are Hoisted
+In JavaScript, a variable can be declared after it has been used.
+
+In other words; a variable can be used before it has been declared
+
+
+var : redeclaration and reassignment is possible
+let : reassignment is possible 
+const : no redeclaration and no reassignment is possible 
+
+Scopes explained.
+
+var - functional scope.
+
+let and const - block scope.
+
+Data types:
+
+// primitive 
+Number
+String
+Boolean
+bigint
+undefined
+null
+symbol
+
+// non primitive
+
+arrays
+objects

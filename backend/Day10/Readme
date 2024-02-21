@@ -71,3 +71,6 @@ PACKAGE
 + can be accessed by qualifying the package name
             ex : - package.className
 
+javac -d . Demo_01.java
+
+it creates the destination folders.
