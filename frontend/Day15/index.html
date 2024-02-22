@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- <body>
+    <p id="one"></p>   
+    <img id="im" src="" alt="">
+
+    
+    <script>
+        document.getElementById('one').innerHTML="Hello, this is DOM element";
+        document.getElementById('one').style.color="red";
+        document.getElementById('one').style.fontSize="30px";
+        document.getElementById('im').src="https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg";
+        document.getElementById('im').style.width="300px";
+
+    </script>
+</body>
+-->
+
+  <body>
+    <center>
+      <h1>OTP GENERATOR</h1>
+      <button style="cursor: pointer;" onclick="generateOtp()">Generate OTP</button>
+      <h4 id="display"></h4>
+    </center>
+
+    <script>
+      const generateOtp=() =>{
+        let otp = Math.round((Math.random()*1000000));
+        // alert(`Your otp is ${Math.round(otp)}`);
+        var otpDisplay=document.getElementById('display');
+        otpDisplay.style.fontSize="50px";
+        otpDisplay.innerHTML=`Your OTP is ${otp}`;
+        otpDisplay.style.color="Red";
+      };
+    </script>
+  </body>
+</html>
