@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP</title>
+    <style>
+        body{
+            background: linear-gradient(to bottom right,rgb(248, 247, 246),rgb(168, 236, 168));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 97.5vh;
+        }
+        input,button{
+            height:50px;
+            border-radius: 5px;
+            border:.3px solid black;
+            padding:0 20px;
+        }
+        button{
+            background-color: black;
+            color:white;
+            cursor: pointer;
+        }
+        #cities{
+            border:none;
+            padding:10px;
+            background-color: transparent;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size:21px;
+            height:fit-content;
+        }
+    </style>
+  </head>
+  <body>
+    <form id="form">
+      <input type="text" placeholder="Enter city name" name="city" id="city" />
+      <button type="submit" id="submit">Get Location</button>
+      <div id="cities"></div>
+    </form>
+    <script>
+      const form = document.getElementById("form");
+      const input = document.getElementById("city");
+      const info = document.getElementById("cities");
+      const API = "7fb89fce1019de0e4a5c38817fde01c2";
+      form.addEventListener("submit",  (e) => {
+        e.preventDefault();
+        info.textContent="";
+        fetch(
+          `https://api.openweathermap.org/data/2.5/weather?q=${input.value}&appid=${API}`
+        ).then((data)=>data.json()).then(response=>{
+            const para=document.createElement("div");
+        para.innerHTML=`<p>City is : ${response.name} </p><p>Temperature is : ${Math.round(response.main.temp-273)}<sup>o</sup> C</p>`
+        info.appendChild(para);
+        
+        }).catch(()=>{
+            alert("Error while fetching! Try Again!");
+        })
+        form.reset();
+      });
+      
+    </script>
+  </body>
+</html>

@@ -24,19 +24,74 @@
   <body>
     <center>
       <h1>OTP GENERATOR</h1>
-      <button style="cursor: pointer;" onclick="generateOtp()">Generate OTP</button>
+      <button style="cursor: pointer" onclick="generateOtp()">
+        Generate OTP
+      </button>
       <h4 id="display"></h4>
     </center>
 
     <script>
-      const generateOtp=() =>{
-        let otp = Math.round((Math.random()*1000000));
+      // arrow functions
+
+      const generateOtp = () => {
+        let otp = Math.round(Math.random() * 1000000);
         // alert(`Your otp is ${Math.round(otp)}`);
-        var otpDisplay=document.getElementById('display');
-        otpDisplay.style.fontSize="50px";
-        otpDisplay.innerHTML=`Your OTP is ${otp}`;
-        otpDisplay.style.color="Red";
+        var otpDisplay = document.getElementById("display");
+        otpDisplay.style.fontSize = "50px";
+        otpDisplay.innerHTML = `Your OTP is ${otp}`;
+        otpDisplay.style.color = "Red";
       };
+
+      // map function
+
+      // for array
+
+      let arr = [1, 4, 5, 6];
+    //   let b=arr.map((each)=>{
+    //     each*6;
+    //   });
+    // console.log(b);
+
+      // for object using Object class
+
+      var person={
+        name:'jagadeesh',
+        age:21,
+        place:"vijayawada"
+      }
+
+    //   Object.values(person).map((each)=>{
+    //     console.log(each);
+    //   })
+
+
+      // filter function 
+
+      var arr1=[4,8,2,5];
+      var d=arr1.filter((each)=>{
+        return each>1
+      }
+      )
+      d.map((each)=>{
+        console.log(each);
+      })
+
+
+      // reduce function - 
+      // 12performs the expression and assigns to previous value
+      const sum=arr1.reduce((prev,curr)=>{
+        return prev+curr
+      },0)
+      console.log(sum);
+
+      const four=[12,14,18,20,59];
+      const four2=four.map(each=>{each/89;console.log(each/89)});   
+      const four1=four2.filter(each=>each>18);
+      four1.map(each=>console.log(each));    
+      const diff=four1.reduce((prev,curr)=>{
+        return prev-curr
+      },10)
+      console.log(diff);
     </script>
   </body>
 </html>
